@@ -16,7 +16,7 @@ public class Find {
     public static void main(String[] args) {
         int[] numbers={1,3,4,9,6,8,5,7};
         FindMissed obj=new FindMissed();
-        int getMissed=obj.findMissedNum(numbers);
-        System.out.println(getMissed);
+        int missed=obj.findMissedNum(numbers);
+        System.out.println(missed);
     }
 }
